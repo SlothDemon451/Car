@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 75px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    padding: 0 30px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .search form input[type=text] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .search form button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  /* Featured Cars Styles */
+  .featured-cars {
+    padding: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .featured-cars h2 {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Main Cars Styles */
+  .main-cars {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main-cars h2 {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

@@ -1,44 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Car Website - Login/Sign Up</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Dealership</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="container">
-		<div class="login-box">
-			<h2>Login</h2>
-			<form>
-				<label for="username">Username</label>
-				<input type="text" id="username" name="username" required>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="assets/images/logo.jpg" alt="Car Dealership">
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Cars</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="search">
+				<form>
+					<input type="text" placeholder="Search cars...">
+					<button type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+	</header>
 
-				<label for="password">Password</label>
-				<input type="password" id="password" name="password" required>
-
-				<button type="submit" class="btn">Log In</button>
-			</form>
+	<section class="featured-cars">
+		<h2>Featured Cars</h2>
+		<div class="card">
+			<img src="assets/images/jesko.jpg" alt="Car Image">
+			<h3>koenigsegg Jesko</h3>
+			<p>$183,000</p>
+			<button>View Details</button>
 		</div>
-
-		<div class="signup-box">
-			<h2>Sign Up</h2>
-			<form>
-				<label for="fullname">Full Name</label>
-				<input type="text" id="fullname" name="fullname" required>
-
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" required>
-
-				<label for="username">Username</label>
-				<input type="text" id="username" name="username" required>
-
-				<label for="password">Password</label>
-				<input type="password" id="password" name="password" required>
-
-				<button type="submit" class="btn">Sign Up</button>
-			</form>
+		<div class="card">
+			<img src="assets/images/p1.webp" alt="Car Image">
+			<h3>Mclaren P1 Vintage</h3>
+			<p>$112,895</p>
+			<button>View Details</button>
 		</div>
-	</div>
+		<div class="card">
+			<img src="assets/images/smokey_GTR32.jpg" alt="Car Image">
+			<h3> Smokey Nagata's Nissan R32 GTR 1400BHP</h3>
+			<p>$175,900</p>
+			<button>View Details</button>
+		</div>
+        <div class="card">
+			<img src="assets/images/s15.webp" alt="Car Image">
+			<h3>Nissan Silvia S15 Rocket Bunny Naturally Aspirated</h3>
+			<p>$175,900</p>
+			<button>View Details</button>
+		</div>
+        <div class="card">
+			<img src="assets/images/rx7.jpg" alt="Car Image">
+			<h3>Mazda Rx-7 Veilside Rotary</h3>
+			<p>$175,900</p>
+			<button>View Details</button>
+		</div>
+        <div class="card">
+			<img src="assets/images/supra.jpg" alt="Car Image">
+			<h3>Toyota Supra MK IV 1200BHP Twin Turbo</h3>
+			<p>$175,900</p>
+			<button>View Details</button>
+		</div>
+        <div class="card">
+			<img src="assets/images/ford_mustang.jpg" alt="Car Image">
+			<h3>2022 Ford Mustang 5L Twin Turbo</h3>
+			<p>$175,900</p>
+			<button>View Details</button>
+		</div>
+        <div class="card">
+			<img src="assets/images/dodge_viper_acr.jpg" alt="Car Image">
+			<h3>Dodge Viper ACR Extreme</h3>
+			<p>$175,900</p>
+			<button>View Details</button>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Car Dealership</p>
+	</footer>
 </body>
 </html>
